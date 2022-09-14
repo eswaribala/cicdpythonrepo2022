@@ -3,6 +3,7 @@
 Created on Mon Jun 11 14:00:09 2018
 
 @author: Balasubramaniam
+
 """
 #dictionary
 #user={"id": 1,
@@ -54,6 +55,7 @@ users=[
       "geo": {
         "lat": "-43.9509",
         "lng": "-34.4618"
+          
       }
     },
     "phone": "010-692-6593 x09125",
