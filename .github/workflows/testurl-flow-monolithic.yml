@@ -26,6 +26,6 @@ jobs:
        id: ping
        uses: soul-wish/ping-url-javascript-action@v1.1
        with:
-        url: http://www.vebdental-care.com
+        url: https://vebdental-care.com/
      
      
