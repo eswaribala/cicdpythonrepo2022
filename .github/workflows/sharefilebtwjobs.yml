@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - shell: bash
-      - run: |
+        run: |
          expr 3 + 7 > cal.txt
       
    
