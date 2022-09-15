@@ -21,7 +21,7 @@ jobs:
      - name: Display Last Name Variable
        run: echo "Hi ${{env.lastName}}"
      - name: Display Job
-       run: echo "${{job}}}
+       run: echo "${{job}}}"
        env:
         job: "Developer"
      
