@@ -18,10 +18,6 @@ jobs:
         with: 
           name: calendar
           path: calendar.txt
-  job2:
-   runs-on: windows-latest
-   
-  job3: 
-   runs-on: macOS-latest 
+  
    
  
