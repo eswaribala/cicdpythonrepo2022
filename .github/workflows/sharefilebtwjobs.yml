@@ -19,5 +19,14 @@ jobs:
           name: calendar
           path: calendar.txt
   
-   
+  job2:
+    name: Download file
+    needs: [job1]
+    runs-on: windows-latest
+    steps:
+      - name: Download the calendar.txt file 
+        uses: actions/download-artifact@v3
+        with: 
+          name: calendar
+          path: calendar.txt
  
