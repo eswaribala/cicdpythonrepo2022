@@ -17,14 +17,14 @@ jobs:
    runs-on: windows-latest
    steps:
      - name: Display env variables
-       run: echo "Hi ${{firstName}}"
+       run: echo "Hi ${{env.firstName}}"
    
      
  ubuntu-job:
    runs-on: ubuntu-latest
    steps:
      - name: Display env variables
-       run: echo "Hi ${{lastName}}"
+       run: echo "Hi ${{env.lastName}}"
    
    
    
