@@ -1,6 +1,11 @@
 on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ "master" ]
   schedule:
-    - cron: '*/1 * * * *' # will run every 5 minutes
+    - cron: '2 * * * *'
 
 jobs:
   ping_url:
